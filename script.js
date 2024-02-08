@@ -3,7 +3,7 @@
   var x = setInterval(function () {
     var now = new Date().getTime();
     var distance = targetDate - now;
-
+    var text= "hello";
     const d = Math.floor(distance / (1000 * 60 * 60 * 24));
     const h = Math.floor(
       (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
@@ -14,7 +14,8 @@
     document.getElementById("hours").innerHTML = h;
     document.getElementById("minutes").innerHTML = m;
     document.getElementById("seconds").innerHTML = s;
-  }, 1000);
-if(targetDate==new Date().getTime()){
+    if(text=="hello"){
    document.getElementById("text").innerHTML="kayne is here"
 }
+
+  }, 1000);
