@@ -1,5 +1,5 @@
   // Set the target date with Los Angeles time zone
-  var targetDate = new Date("February 9, 2024 00:00:00").getTime();
+  var targetDate = new Date().getTime();
   var x = setInterval(function () {
     var now = new Date().getTime();
     var distance = targetDate - now;
