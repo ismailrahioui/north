@@ -15,3 +15,6 @@
     document.getElementById("minutes").innerHTML = m;
     document.getElementById("seconds").innerHTML = s;
   }, 1000);
+if(targetDate==distance){
+   document.getElementById("day").innerHTML="kayne is here"
+}
